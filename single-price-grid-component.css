@@ -1,0 +1,126 @@
+body {
+    background-color: #e5eff5;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 400px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.box {
+    box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.box-top {
+    background-color: white;
+    padding: 40px 35px;
+    text-align: left;
+    border-radius: 10px 10px 0px 0px;
+    ;
+}
+
+.title {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+}
+
+.subtitle {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 3;
+    color: hsl(71, 73%, 54%);
+}
+
+.content {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #98a6bd;
+}
+
+.box-bottom {
+    display: flex;
+}
+
+.box-bottom-left {
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px 40px;
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+.box-1-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 3;
+}
+
+.box-1-subtitle {
+    color: hsl(204, 43%, 93%);
+}
+
+.box-1-content {
+    color: white;
+    line-height: 1.8;
+}
+
+.price {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.button {
+    text-align: center;
+    line-height: 5;
+    padding-top: 12px;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    border-style: none;
+    height: 45px;
+    width: 100%;
+    box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.box-bottom-right {
+    background-color: #4ABEBD;
+    padding: 20px 63px;
+    text-align: left;
+    border-bottom-right-radius: 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+.box-2-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 3;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px
+}
+
+li {
+    list-style: none;
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+}
